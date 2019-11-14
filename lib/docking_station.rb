@@ -1,4 +1,3 @@
-
 class DockingStation
   attr_reader :bike
 
@@ -11,13 +10,4 @@ class DockingStation
     @bike = bike
   end
 
-def bike
-  @bike
 end
-
-end
-
-station = DockingStation.new
-bike = Bike.new
-station.dock(bike)
-station.release_bike
